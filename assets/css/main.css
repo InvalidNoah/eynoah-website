@@ -1,0 +1,50 @@
+.centertext {
+    font-size: 25px;
+    color: #ff0000;
+}
+
+body {
+    background-color: gray;
+    color: #202225;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+body div.darkmode {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem 1rem 0.75px 1px;
+    cursor: pointer;
+}
+
+body.dark .darkmode .light, body:not(.dark) .darkmode .dark {
+    display: none;
+}
+
+.fa {
+    cursor: pointer;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+.futter {
+    justify-content: right;
+    display: none;
+    align-items: end;
+}
+
+.star {
+    /* Star 1 */
+
+position: absolute;
+width: 333px;
+height: 332px;
+
+background: #D9D9D9;
+
+}
