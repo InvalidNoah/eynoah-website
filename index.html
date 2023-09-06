@@ -51,7 +51,8 @@
               </ul>
             </div>
             <div class="navbar-end">
-              <a class="btn">Button</a>
+              <i class="fa-brands fa-discord" onclick="alert('Bald')"></i>
+              <span class="fa-brands fa-github" onclick="window.open('https://github.com/InvalidNoah', '_blank')"> </span>
             </div>
           </div>
 
@@ -64,18 +65,25 @@
                     <img src="" class="max-w-sm rounded-lg shadow-2xl">
                     <div>
                         <h1 class="text-5xl font-bold">EyNoah.de >> Willkommen</h1>
-                        <p class="py-6">Beste Website EU west!</p>
-                        <button class="btn btn-primary">Weiter</button>
+                        <p class="py-6" onclick="alert('You are Gay')">Beste Website EU west!</p>
+                        <button class="btn btn-primary" onclick="window.location.href='#timesec'">Weiter</button>
                     </div>
                 </div>
             </div>
 
-            <a href="https://time.is/Vienna" id="time_is_link" rel="nofollow" style="font-size:36px">Aktuelle Ortszeit in Wien:</a>
-<span id="Vienna_z730" style="font-size:36px"></span>
-<script src="//widget.time.is/t.js"></script>
-<script>
-time_is_widget.init({Vienna_z730:{}});
-</script>
+
+            <section id="timesec">
+              <div class="alert alert-info">
+                <a href="https://time.is/Vienna" id="time_is_link" rel="nofollow" target="_blank" style="font-size:36px">Aktuelle Ortszeit in Wien:</a>
+                      <span id="Vienna_z730" style="font-size:36px"></span>
+                      <script src="assets/js/time.js"></script>
+                      <script>
+                      time_is_widget.init({Vienna_z730:{}});
+                      </script>
+              </div>
+            </section>
+
+            
 
 
 
