@@ -8,6 +8,10 @@
         <script src="https://cdn.tailwindcss.com"></script>
         <!-- <link rel="stylesheet" href="assets/css/part.css"> -->
         <link rel="stylesheet" href="assets/css/web.css">
+
+        <!-- Scripts of my Own Page -->
+        <script src="assets/js/functions.js"></script>
+
         <script src="https://kit.fontawesome.com/eba1f09b9b.js" crossorigin="anonymous"></script>
         <!-- Meta Tags from this Site -->
         <meta charset="utf-8">
@@ -75,8 +79,11 @@
             </div>
             <div class="navbar-end">
               <a class="btn" onclick="window.open('https://github.com/InvalidNoah', '_blank')"><i class="fa-brands fa-github"></i></a>
-              <a class="btn" onclick="alert('Bald')"><i class="fa-brands fa-discord" ></i></a>
+              <a class="btn" onclick="javascript:getDiscordLink()"><i class="fa-brands fa-discord" ></i></a>
             </div>
+
+              <p class="text-accent-content\/20" id="dc"></p>
+
           </div>
 
        
