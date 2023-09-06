@@ -1,0 +1,2 @@
+const serverInfo = await fetchJavaServer('esta.land');
+console.log(serverInfo)
