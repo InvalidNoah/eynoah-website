@@ -7,7 +7,7 @@ a["p"]=""
 if(typeof a["id"]==U)a["id"]=i
 if(typeof a["time_format"]!=U)tF=a["time_format"]
 for(j in c)tF=tF.replace(j,c[j])
-tl="#timesec"+i.substr(0,a["id"].indexOf("AA")).replace("__",",_")
+tl="#header"+i.substr(0,a["id"].indexOf("AA")).replace("__",",_")
 tF="<span onclick=\"location='"+tl.replace("'","\\\'")+"'\" title=\""+tl+'">'+tF+"</span>"
 if(typeof a["contents"]!=U)ct=a["contents"]
 a["contents"]=ct.replace("TIME",tF)
